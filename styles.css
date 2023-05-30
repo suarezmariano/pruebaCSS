@@ -1,0 +1,54 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    padding-top: 50px;
+    box-sizing: border-box;
+    padding-left: 75px;
+}
+
+.bloque {
+    max-width:35%;
+    display: block;
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+
+#bloque1 {
+    background-color: aquamarine;
+}
+
+#bloque2 {
+    background-color: bisque;
+}
+
+#bloque3 {
+    background-color: yellowgreen;
+}
+
+#bloque4 {
+    background-color: rebeccapurple;
+    display: block;
+}
+
+#bloque2, #bloque4 {
+    color: blue;
+   
+}
+.subbloque{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#titulo{
+    color: yellow;
+    border: solid 5px yellow;
+    padding: 5px;
+    margin-top: 15px;
+}
