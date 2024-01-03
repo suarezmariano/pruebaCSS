@@ -67,15 +67,3 @@ body {
 #bloque5 {
     border: 13px red solid;
 }
-
-.presentacion {
-    height: 500px;
-    background-color: blue;
-    width: 40%;
-    color: white;
-    padding: 20px;
-    margin: 30px auto;
-
-}
-
-.nombre {}
