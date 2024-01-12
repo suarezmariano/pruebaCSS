@@ -87,11 +87,19 @@ th {
 
 .content {
     max-width: 700px;
-    max-height: 500px;
+    max-height: 600px;
     width: 100%;
-    height: 100%;
+    height: 80%;
     background-color: aqua;
     position: relative;
+    box-shadow: 0 3px 6px 10px black;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.image {
+    float: left;
+    margin: 10px;
 }
 
 .actions {
@@ -102,7 +110,7 @@ th {
 
 }
 
-.close {
+.actions {
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -116,6 +124,15 @@ th {
     text-decoration-line: none;
 }
 
+div.close {
+    display: flex;
+    justify-content: end;
+    height: 40px;
+}
+
+.text {
+    padding: 10px;
+}
 
 .table {
     width: 100%;
@@ -133,13 +150,28 @@ th {
     color: blanchedalmond;
 }
 
+a:hover {
+    opacity: 0.8;
+}
+
 .position {
     background-color: antiquewhite;
     padding: 4px;
     border-radius: 4px;
-
+    margin: 5px;
 }
 
 header {
     padding: 10px;
+}
+
+.paragraph {
+    line-height: 1.8em;
+    font-weight: 300;
+}
+
+.title-item {
+    border-bottom: solid black 3px;
+    padding-bottom: 5px;
+
 }
