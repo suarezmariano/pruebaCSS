@@ -87,19 +87,18 @@ th {
 
 .content {
     max-width: 700px;
-    max-height: 600px;
     width: 100%;
-    height: 80%;
+    height: 80vh;
     background-color: aqua;
-    position: relative;
     box-shadow: 0 3px 6px 10px black;
-    padding: 5px;
+    padding: 1.8em;
     border-radius: 5%;
+    position: relative;
+    overflow: scroll;
 }
 
 .image {
     float: left;
-    margin: 10px;
 }
 
 .actions {
@@ -174,4 +173,49 @@ header {
     border-bottom: solid black 3px;
     padding-bottom: 5px;
 
+}
+
+.title {
+    display: inline-block;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+address {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 1em;
+
+    }
+
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    td:nth-of-type(1) {
+        font-size: 1.5em;
+        font-style: bold;
+        color: black;
+    }
+
+    th {
+        display: none;
+    }
+}
+
+@media (min-height: 550px) {
+    .content {
+        height: 500px;
+
+    }
 }
