@@ -48,6 +48,9 @@ body {
 
 .hero-img {
     width: 100%;
+
+    display: block;
+
 }
 
 .hero-pic {
@@ -55,4 +58,31 @@ body {
     max-width: 400px;
     margin-bottom: 40px;
     margin: 0 auto;
+
+}
+
+@media (min-width: 768px) {
+    .hero-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero-texts {
+        width: 50%;
+    }
+
+    .hero-pic {
+        width: 45%;
+        margin-bottom: 0%;
+        order: 1;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-copy {
+        margin: .7em 0 1em;
+    }
 }
