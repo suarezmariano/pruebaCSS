@@ -1,3 +1,7 @@
+:root {
+    --bordes-colores: 1px solid white;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -58,7 +62,7 @@ body {
     max-width: 400px;
     margin-bottom: 40px;
     margin: 0 auto;
-
+    border: var(--bordes-colores);
 }
 
 @media (min-width: 768px) {
